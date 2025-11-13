@@ -3,6 +3,7 @@ package Aula_11;
 public class Conta {
     private static int contador = 0;
     private int id;
+    
     public Conta() {
         contador++;
         id = contador;
@@ -17,7 +18,8 @@ public class Conta {
     }
     
     
-    public  static void mostraContador() {
+    public  void mostraContador() {
         System.out.println("Contador: "+contador);
+        System.out.println("Id: "+id);
     }
 }
